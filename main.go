@@ -164,6 +164,9 @@ func main() {
 						fmt.Printf("secret-key > Connection failed: %s\n\n", err)
 					}
 				}
+		func appendUnique(slice []string, add string) []string {
+	                for _, el := range slice {
+		if el == add {
 			}
 			fmt.Println()
 		} else {
